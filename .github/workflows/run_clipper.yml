@@ -1,0 +1,43 @@
+name: Auto TikTok Clipper
+
+on:
+  workflow_dispatch: # Позволяет запускать вручную кнопкой
+  schedule:
+    - cron: '0 12 * * *' # Запускать каждый день в 12:00 UTC (можно изменить)
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Install Python dependencies
+        run: |
+          pip install faster-whisper
+          # Добавь сюда другие библиотеки, если они нужны твоему скрипту (например, для TikTok API)
+          pip install git+https://github.com/luandv92/tiktok-direct-post
+
+      - name: Run clipper script
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
+        run: python episode_clipper.py
+
+      - name: Upload generated videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: clips
+          path: output/
+          retention-days: 5
