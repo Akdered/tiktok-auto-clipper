@@ -1,0 +1,31 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,82,&H00FFFFFF,&H000000FF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,7,2,2,52,52,1195,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:02.23,Default,,0,0,0,,Арбузу. Вы сейчас серьезно?
+Dialogue: 0,0:00:03.73,0:00:05.23,Default,,0,0,0,,Нет, вы вообще...
+Dialogue: 0,0:00:07.09,0:00:08.45,Default,,0,0,0,,Вы... Вам заняться нечем.
+Dialogue: 0,0:00:08.55,0:00:09.19,Default,,0,0,0,,Вот я не понимаю.
+Dialogue: 0,0:00:09.69,0:00:11.49,Default,,0,0,0,,Два часа я потратила и ехала
+Dialogue: 0,0:00:11.49,0:00:13.45,Default,,0,0,0,,сюда. Сейчас неизвестно, сколько мне ехать
+Dialogue: 0,0:00:13.45,0:00:15.21,Default,,0,0,0,,обратно. Нет, ну это вообще всякие
+Dialogue: 0,0:00:15.21,0:00:17.71,Default,,0,0,0,,границы переходят. Чего вы так разволновались?
+Dialogue: 0,0:00:17.87,0:00:19.57,Default,,0,0,0,,Я думал, весело будет прокатиться по
+Dialogue: 0,0:00:19.57,0:00:21.79,Default,,0,0,0,,Москве, пообщаться. Да, обхохочешься.
+Dialogue: 0,0:00:21.87,0:00:24.01,Default,,0,0,0,,Другого способа. Нельзя было придумать, пообщаться.
+Dialogue: 0,0:00:24.51,0:00:24.86,Default,,0,0,0,,А!
+Dialogue: 0,0:00:26.05,0:00:28.25,Default,,0,0,0,,Сейчас после жвачки съездим на Воробьево
+Dialogue: 0,0:00:28.25,0:00:29.23,Default,,0,0,0,,-гора. Да нет, спасибо.
+Dialogue: 0,0:00:29.45,0:00:30.21,Default,,0,0,0,,Это уже вы без меня.
+Dialogue: 0,0:00:30.21,0:00:31.49,Default,,0,0,0,,Я не хочу с вами разговаривать.
+Dialogue: 0,0:00:31.61,0:00:33.35,Default,,0,0,0,,Вообще никогда не буду больше с
+Dialogue: 0,0:00:33.35,0:00:34.39,Default,,0,0,0,,вами разговаривать. Все.

@@ -1,0 +1,31 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,82,&H00FFFFFF,&H000000FF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,7,2,2,52,52,1195,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:03.19,Default,,0,0,0,,А, спасибо. И вот еще что.
+Dialogue: 0,0:00:04.47,0:00:06.29,Default,,0,0,0,,Отвезите, пожалуйста, химчистку.
+Dialogue: 0,0:00:08.23,0:00:09.31,Default,,0,0,0,,Вы же издеваетесь надо мной?
+Dialogue: 0,0:00:09.91,0:00:11.01,Default,,0,0,0,,Нельзя было это отдать, когда я
+Dialogue: 0,0:00:11.01,0:00:11.87,Default,,0,0,0,,ехала за костюмом?
+Dialogue: 0,0:00:12.57,0:00:14.05,Default,,0,0,0,,Да, конечно, извините.
+Dialogue: 0,0:00:14.89,0:00:17.09,Default,,0,0,0,,Просто они испачкались, когда я упал
+Dialogue: 0,0:00:17.09,0:00:17.97,Default,,0,0,0,,в грязь в этом.
+Dialogue: 0,0:00:18.67,0:00:20.81,Default,,0,0,0,,После полета через вашу машину.
+Dialogue: 0,0:00:20.87,0:00:22.59,Default,,0,0,0,,Ничего -ничего. Простите меня.
+Dialogue: 0,0:00:23.27,0:00:25.55,Default,,0,0,0,,Ничего. Я все сделаю, но чуть
+Dialogue: 0,0:00:25.55,0:00:26.83,Default,,0,0,0,,позже. У меня очень тяжелый день
+Dialogue: 0,0:00:26.83,0:00:27.18,Default,,0,0,0,,был.
+Dialogue: 0,0:00:28.97,0:00:29.83,Default,,0,0,0,,Да вот еще что.
+Dialogue: 0,0:00:30.87,0:00:31.67,Default,,0,0,0,,Я освобожусь в семь.
+Dialogue: 0,0:00:32.33,0:00:33.87,Default,,0,0,0,,Будьте готовы, отвезу вас домой.
+Dialogue: 0,0:00:34.45,0:00:35.79,Default,,0,0,0,,А я заканчиваю в шесть.
+Dialogue: 0,0:00:36.75,0:00:38.17,Default,,0,0,0,,Будьте готовы в шесть.

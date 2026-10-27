@@ -1,0 +1,12 @@
+{
+  "clip_count": 6,
+  "min_duration": 28,
+  "max_duration": 42,
+  "model": "small",
+  "language": "ru",
+  "skip_start_seconds": 45,
+  "skip_end_seconds": 30,
+  "movie_height": 770,
+  "movie_top": 80,
+  "game_top": 858
+}

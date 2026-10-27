@@ -1,0 +1,35 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,82,&H00FFFFFF,&H000000FF,&H00000000,&H70000000,-1,0,0,0,100,100,0,0,1,7,2,2,52,52,1195,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:01.53,Default,,0,0,0,,Как я тебя вздерну на речь?
+Dialogue: 0,0:00:01.99,0:00:02.51,Default,,0,0,0,,Инвалид.
+Dialogue: 0,0:00:03.85,0:00:05.77,Default,,0,0,0,,Кто бы говорил про инвалид?
+Dialogue: 0,0:00:07.77,0:00:09.45,Default,,0,0,0,,Я на больничном меня нет.
+Dialogue: 0,0:00:11.29,0:00:12.73,Default,,0,0,0,,Вы что, тут таракана в травете?
+Dialogue: 0,0:00:13.07,0:00:14.21,Default,,0,0,0,,Эта вонь уже в зале стоит.
+Dialogue: 0,0:00:14.65,0:00:16.51,Default,,0,0,0,,Тайнура, наверное, свою часть заваривай.
+Dialogue: 0,0:00:16.75,0:00:17.39,Default,,0,0,0,,Эй, Гокми,
+Dialogue: 0,0:00:18.25,0:00:20.19,Default,,0,0,0,,мой чай так не пахнет уже.
+Dialogue: 0,0:00:20.19,0:00:21.87,Default,,0,0,0,,Я новую приезла.
+Dialogue: 0,0:00:22.63,0:00:23.47,Default,,0,0,0,,Что это такое?
+Dialogue: 0,0:00:25.01,0:00:26.87,Default,,0,0,0,,Кристина новое блюдо в меню вела?
+Dialogue: 0,0:00:27.89,0:00:29.39,Default,,0,0,0,,Нет, это фенисия.
+Dialogue: 0,0:00:29.69,0:00:30.97,Default,,0,0,0,,Низкокаларина из автора готовит.
+Dialogue: 0,0:00:31.07,0:00:31.79,Default,,0,0,0,,Похудеть хочет.
+Dialogue: 0,0:00:32.71,0:00:34.93,Default,,0,0,0,,От этого запаха коней можно двинуть.
+Dialogue: 0,0:00:35.57,0:00:36.33,Default,,0,0,0,,Уберите это.
+Dialogue: 0,0:00:37.07,0:00:37.51,Default,,0,0,0,,Рахитоиды.
+Dialogue: 0,0:00:38.31,0:00:39.33,Default,,0,0,0,,Да, кстати, Макс, ты не забыл
+Dialogue: 0,0:00:39.33,0:00:40.31,Default,,0,0,0,,завтра за квартиру платье.
+Dialogue: 0,0:00:40.53,0:00:41.35,Default,,0,0,0,,Слушай, старик, я на мили.
+Dialogue: 0,0:00:41.49,0:00:41.60,Default,,0,0,0,,Ты же знаешь,
